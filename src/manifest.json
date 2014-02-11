@@ -1,0 +1,25 @@
+{
+   "manifest_version": 2,
+   "name": "Right Search",
+   "version": "0.0.1",
+   "options_page": "options.html",
+   "permissions": [
+      "tabs",
+      "contextMenus"
+   ],
+   "background": {
+      "scripts": [
+         "js/jquery-2.1.0.min.js",
+         "js/main.js",
+         "js/background.js"
+      ]
+   },
+   "browser_action": {
+      "default_icon": "img/icon128.png",
+      "default_title": "Right Search"
+   },
+   "icons": {
+      "128": "img/icon128.png",
+      "48": "img/icon48.png"
+   }
+}
